@@ -1,0 +1,23 @@
+[25-Oct-2020 18:01:08 UTC] PHP Warning:  Unterminated comment starting line 664 in /home/reto5v66ax5c/public_html/test/application/controllers/Community.php on line 664
+[27-Oct-2020 09:08:16 UTC] PHP Fatal error:  Cannot redeclare Data_model::addBadge() in /home/reto5v66ax5c/public_html/test/application/models/Data_model.php on line 271
+[31-Oct-2020 18:40:29 UTC] PHP Fatal error:  Cannot redeclare Community::category() in /home/reto5v66ax5c/public_html/test/application/controllers/Community.php on line 468
+[16-Nov-2020 01:47:57 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[16-Nov-2020 01:57:52 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[16-Nov-2020 07:34:05 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[16-Nov-2020 10:36:34 UTC] PHP Fatal error:  Cannot redeclare convertToAgoFormat() (previously declared in /home/reto5v66ax5c/public_html/application/views/site/community/detail.php:2) in /home/reto5v66ax5c/public_html/application/views/site/community/detail.php on line 13
+[16-Nov-2020 10:39:40 UTC] PHP Fatal error:  Cannot redeclare convertToAgoFormat() (previously declared in /home/reto5v66ax5c/public_html/application/views/site/community/detail.php:2) in /home/reto5v66ax5c/public_html/application/views/site/community/detail.php on line 13
+[16-Nov-2020 12:35:54 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[16-Nov-2020 23:34:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[17-Nov-2020 01:04:24 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[17-Nov-2020 09:22:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[17-Nov-2020 16:36:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[18-Nov-2020 06:48:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[18-Nov-2020 23:52:03 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[19-Nov-2020 00:12:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[20-Nov-2020 21:29:29 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[21-Nov-2020 02:22:59 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[21-Nov-2020 04:57:33 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[21-Nov-2020 08:05:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[21-Nov-2020 11:52:01 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[23-Nov-2020 00:43:16 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
+[24-Nov-2020 17:47:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98582528 bytes) in /home/reto5v66ax5c/public_html/system/core/Exceptions.php on line 271
