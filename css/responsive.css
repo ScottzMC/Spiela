@@ -1,0 +1,207 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-avatar {
+        width: 150px;
+        height: 150px;
+        margin-top: 4rem;
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .profile-button {
+        font-size: 14px;
+    }
+    .large-xl-sized-avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .menu-holder {
+        display: none;
+    }
+
+    .spiela-search-wrap {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        width: 100%;
+        height: 75px;
+    }
+
+    .trending-icon {
+        font-size: 2rem;
+    }
+
+    .profile-tabs {
+        display: none;
+    }
+    .load-more-comments {
+        font-size: 12px;
+    }
+    .new-post-title {
+        width: 90%;
+    }
+    .category-select {
+        width: 90%;
+    }
+
+    .partner-zone-snippet p {
+        font-size: 12px
+    }
+
+    .partner-zone-snippet h6 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .heading-p {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 19px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 21px;
+    }
+
+    .mobile-search{
+        display: block;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .menu-holder{
+        display: none;
+    }
+    .profile-button{
+        font-size: 20px;
+    }
+
+    .large-xl-sized-avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .menu-holder {
+        display: none;
+    }
+    .spiela-search-wrap{
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        width: 100%;
+        height: 75px;
+    }
+    .trending-icon {
+        font-size: 2rem;
+    }
+    .profile-tabs {
+        display: block;
+    }
+    .collapsed-profile{
+        display: none;
+    }
+    .new-post-title {
+        width: 82%;
+    }
+    .mobile-search{
+        display: block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .menu-holder {
+        display: block;
+    }
+    .spiela-search-wrap
+    {
+        display: none;
+    }
+    .hamburger-menu {
+        display: none;
+        width: 100%;
+        height: 75px;
+    }
+
+    .trending-icon {
+        font-size: 2.5rem;
+    }
+    .load-more-comments {
+        font-size: 18px;
+    }
+    .new-post-title {
+        width: 80%;
+    }
+    .category-select {
+        width: 82%;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu-holder{
+        display: block;
+    }
+    .form-input-wrapper {
+        width: 80%;
+    }
+    .large-xl-sized-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .form-input-wrapper {
+        width: 80%;
+    }
+    .large-xl-sized-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .spiela-search-wrap {
+        display: block;
+    }
+    .mobile-search{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .form-input-wrapper {
+        width: 80%;
+    }
+    .large-xl-sized-avatar {
+        width: 125px;
+        height: 125px;
+    }
+}
