@@ -1,0 +1,80 @@
+[05-Oct-2021 15:20:00 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "Books API has not been used in project 668634422971 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/books.googleapis.com/overview?project=668634422971 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+    "errors": [
+      {
+        "message": "Books API has not been used in project 668634422971 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/books.googleapis.com/overview?project=668634422971 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+        "domain": "usageLimits",
+        "reason": "accessNotConfigured",
+        "extendedHelp": "https://console.developers.google.com"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+ in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/sr in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Http/REST.php on line 128
+[05-Oct-2021 15:23:35 UTC] PHP Fatal error:  Uncaught Exception: This application must be run on the command line. in /home/reto5v66ax5c/public_html/test/demo.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/demo.php on line 21
+[05-Oct-2021 15:24:05 UTC] PHP Warning:  Use of undefined constant STDIN - assumed 'STDIN' (this will throw an Error in a future version of PHP) in /home/reto5v66ax5c/public_html/test/demo.php on line 57
+[05-Oct-2021 15:24:05 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/reto5v66ax5c/public_html/test/demo.php on line 57
+[05-Oct-2021 15:24:05 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/demo.php(60): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/reto5v66ax5c/public_html/test/demo.php(79): getClient()
+#2 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Client.php on line 239
+[05-Oct-2021 15:31:35 UTC] PHP Warning:  Use of undefined constant STDIN - assumed 'STDIN' (this will throw an Error in a future version of PHP) in /home/reto5v66ax5c/public_html/test/demo.php on line 57
+[05-Oct-2021 15:31:35 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/reto5v66ax5c/public_html/test/demo.php on line 57
+[05-Oct-2021 15:31:35 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/demo.php(60): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/reto5v66ax5c/public_html/test/demo.php(79): getClient()
+#2 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Client.php on line 239
+[05-Oct-2021 15:33:58 UTC] PHP Warning:  Use of undefined constant STDIN - assumed 'STDIN' (this will throw an Error in a future version of PHP) in /home/reto5v66ax5c/public_html/test/demo.php on line 57
+[05-Oct-2021 15:33:58 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/reto5v66ax5c/public_html/test/demo.php on line 57
+[05-Oct-2021 15:33:58 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid code in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Client.php:239
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/demo.php(60): Google\Client->fetchAccessTokenWithAuthCode('')
+#1 /home/reto5v66ax5c/public_html/test/demo.php(79): getClient()
+#2 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Client.php on line 239
+[05-Oct-2021 15:35:17 UTC] PHP Notice:  Undefined variable: client in /home/reto5v66ax5c/public_html/test/demo.php on line 80
+[05-Oct-2021 15:35:17 UTC] PHP Fatal error:  Uncaught TypeError: constructor must be array or instance of Google\Client in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Service.php:42
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/vendor/google/apiclient-services/src/PeopleService.php(89): Google\Service->__construct(NULL)
+#1 /home/reto5v66ax5c/public_html/test/demo.php(80): Google\Service\PeopleService->__construct(NULL)
+#2 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Service.php on line 42
+[05-Oct-2021 15:37:17 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 401,
+    "message": "Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+    "errors": [
+      {
+        "message": "Login Required.",
+        "domain": "global",
+        "reason": "required",
+        "location": "Authorization",
+        "locationType": "header"
+      }
+    ],
+    "status": "UNAUTHENTICATED"
+  }
+}
+ in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/reto5v66ax5c/public_h in /home/reto5v66ax5c/public_html/test/vendor/google/apiclient/src/Http/REST.php on line 128
+[05-Oct-2021 16:05:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Google\Client' not found in /home/reto5v66ax5c/public_html/test/demo.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/demo.php on line 3
+[05-Oct-2021 16:05:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Google\Service\Plus' not found in /home/reto5v66ax5c/public_html/test/demo.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/demo.php on line 15

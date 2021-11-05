@@ -1,0 +1,183 @@
+[13-Oct-2021 14:55:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 41
+[13-Oct-2021 14:55:53 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM9xAodj4GGTtAffuXXPP5cJqIpHPeVGNE4Qoc077oe0AoiW_WqazRf5BAGXvdEmud8hmNN-d4b8UU6TvDiye-6RQIfS1rO7Q-sBmfrTHh03j3muIp7okINlWdUA_HSKRthGJwrMZw76MzFj-IoJn4ds): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 79
+[13-Oct-2021 14:55:53 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:83
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(83): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 83
+[13-Oct-2021 14:57:32 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 70
+[13-Oct-2021 14:57:32 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM9xAodj4GGTtAffuXXPP5cJqIpHPeVGNE4Qoc077oe0AoiW_WqazRf5BAGXvdEmud8hmNN-d4b8UU6TvDiye-6RQIfS1rO7Q-sBmfrTHh03j3muIp7okINlWdUA_HSKRthGJwrMZw76MzFj-IoJn4ds): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 79
+[13-Oct-2021 14:58:43 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 36
+[13-Oct-2021 14:58:59 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 70
+[13-Oct-2021 14:58:59 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM9xAodj4GGTtAffuXXPP5cJqIpHPeVGNE4Qoc077oe0AoiW_WqazRf5BAGXvdEmud8hmNN-d4b8UU6TvDiye-6RQIfS1rO7Q-sBmfrTHh03j3muIp7okINlWdUA_HSKRthGJwrMZw76MzFj-IoJn4ds): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 79
+[13-Oct-2021 14:58:59 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:83
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(83): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 83
+[13-Oct-2021 15:51:09 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[13-Oct-2021 15:51:09 UTC] PHP Notice:  Undefined index: token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 81
+[13-Oct-2021 15:51:09 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 81
+[13-Oct-2021 15:51:09 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:85
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(85): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 85
+[13-Oct-2021 16:04:49 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[13-Oct-2021 16:04:49 UTC] PHP Notice:  Undefined index: token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 89
+[13-Oct-2021 16:04:49 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 89
+[13-Oct-2021 16:04:49 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:93
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(93): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 93
+[13-Oct-2021 16:05:55 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[13-Oct-2021 16:05:55 UTC] PHP Notice:  Undefined index: token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 81
+[13-Oct-2021 16:06:40 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 09:44:34 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM_LsbE7BV4PLpmDeoxBoUapJPYYjWSoWZ28FfR8alClsOdnI79jwQtbmfBBu2nArLZ8rcgMd35j7ylKlxoGXIGOaFWOfc3vCmrfLy6G-jprSeeLLW9nhdTBLaR2EpxDl09IzLYVtZXGwHW5cplkIDPMpHd57A): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 86
+[16-Oct-2021 09:44:34 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:90
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(90): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 90
+[16-Oct-2021 09:51:37 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 09:51:59 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 09:56:48 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 09:56:56 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 09:58:00 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 09:58:52 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 09:58:53 UTC] PHP Notice:  Undefined variable: result1 in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 107
+[16-Oct-2021 09:58:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 107
+[16-Oct-2021 10:03:57 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:03:57 UTC] PHP Notice:  Undefined variable: result1 in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 108
+[16-Oct-2021 10:03:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 108
+[16-Oct-2021 10:04:32 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM_k5AJciZrSxGmBXzI6JdL2pyYVBXJVShfsS6dz1SZepglRdScWFcRbi6l93EP92bQkVu8NWvmF39ztnhM5bqBKYnfrd3KXSIoRclbZWMOJyxojo5PUpLZEMzVCVGx9dZQRf2KCdJp_ruzeeUZ6EBQIgQMpMQ): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 86
+[16-Oct-2021 10:04:32 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:90
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(90): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 90
+[16-Oct-2021 10:04:48 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:06:14 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:06:14 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM_k5AJciZrSxGmBXzI6JdL2pyYVBXJVShfsS6dz1SZepglRdScWFcRbi6l93EP92bQkVu8NWvmF39ztnhM5bqBKYnfrd3KXSIoRclbZWMOJyxojo5PUpLZEMzVCVGx9dZQRf2KCdJp_ruzeeUZ6EBQIgQMpMQ): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 86
+[16-Oct-2021 10:06:14 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:90
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(90): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 90
+[16-Oct-2021 10:06:16 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:06:36 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:08:44 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:08:44 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM_k5AJciZrSxGmBXzI6JdL2pyYVBXJVShfsS6dz1SZepglRdScWFcRbi6l93EP92bQkVu8NWvmF39ztnhM5bqBKYnfrd3KXSIoRclbZWMOJyxojo5PUpLZEMzVCVGx9dZQRf2KCdJp_ruzeeUZ6EBQIgQMpMQ): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 86
+[16-Oct-2021 10:08:44 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:90
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(90): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 90
+[16-Oct-2021 10:08:46 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): &gt;&lt;gd:email rel=&quot;http://schemas.google.com/g/2005#other&quot; address=&quot;test@gmail.com&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): &lt;gd:email rel=&quot;http://schemas.google.com/g/2005#other&quot; address=&quot;test2@gmail.com&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): ://schemas.google.com/g/2005#other&quot; address=&quot;paras1705@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): chemas.google.com/g/2005#other&quot; address=&quot;mayankadeshra@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string(): hemas.google.com/g/2005#other&quot; address=&quot;paras.cybercom@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:08:46 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 100
+[16-Oct-2021 10:12:05 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): &gt;&lt;gd:email rel=&quot;http://schemas.google.com/g/2005#other&quot; address=&quot;test@gmail.com&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): &lt;gd:email rel=&quot;http://schemas.google.com/g/2005#other&quot; address=&quot;test2@gmail.com&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): ://schemas.google.com/g/2005#other&quot; address=&quot;paras1705@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): chemas.google.com/g/2005#other&quot; address=&quot;mayankadeshra@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string(): hemas.google.com/g/2005#other&quot; address=&quot;paras.cybercom@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:05 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:10 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:12:10 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM_k5AJciZrSxGmBXzI6JdL2pyYVBXJVShfsS6dz1SZepglRdScWFcRbi6l93EP92bQkVu8NWvmF39ztnhM5bqBKYnfrd3KXSIoRclbZWMOJyxojo5PUpLZEMzVCVGx9dZQRf2KCdJp_ruzeeUZ6EBQIgQMpMQ): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 86
+[16-Oct-2021 10:12:10 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:90
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(90): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 90
+[16-Oct-2021 10:12:11 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): &gt;&lt;gd:email rel=&quot;http://schemas.google.com/g/2005#other&quot; address=&quot;test@gmail.com&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): &lt;gd:email rel=&quot;http://schemas.google.com/g/2005#other&quot; address=&quot;test2@gmail.com&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): ://schemas.google.com/g/2005#other&quot; address=&quot;paras1705@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): chemas.google.com/g/2005#other&quot; address=&quot;mayankadeshra@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string(): hemas.google.com/g/2005#other&quot; address=&quot;paras.cybercom@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:11 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:58 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): &gt;&lt;gd:email rel=&quot;http://schemas.google.com/g/2005#other&quot; address=&quot;test@gmail.com&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  SimpleXMLElement::xpath(): Undefined namespace prefix in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): &lt;gd:email rel=&quot;http://schemas.google.com/g/2005#other&quot; address=&quot;test2@gmail.com&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  SimpleXMLElement::xpath(): Undefined namespace prefix in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): ://schemas.google.com/g/2005#other&quot; address=&quot;paras1705@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  SimpleXMLElement::xpath(): Undefined namespace prefix in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): chemas.google.com/g/2005#other&quot; address=&quot;mayankadeshra@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  SimpleXMLElement::xpath(): Undefined namespace prefix in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 101
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): namespace error : Namespace prefix gd on email is not defined in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string(): hemas.google.com/g/2005#other&quot; address=&quot;paras.cybercom@gmail.com&quot; primary=&quot;true&quot; in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:12:59 UTC] PHP Warning:  simplexml_load_string():                                                                                ^ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 102
+[16-Oct-2021 10:14:38 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:14:57 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:16:24 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:16:24 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM_k5AJciZrSxGmBXzI6JdL2pyYVBXJVShfsS6dz1SZepglRdScWFcRbi6l93EP92bQkVu8NWvmF39ztnhM5bqBKYnfrd3KXSIoRclbZWMOJyxojo5PUpLZEMzVCVGx9dZQRf2KCdJp_ruzeeUZ6EBQIgQMpMQ): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 86
+[16-Oct-2021 10:16:24 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:90
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(90): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 90
+[16-Oct-2021 10:16:25 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:16:25 UTC] PHP Warning:  file_get_contents(https://www.google.com/m8/feeds/contacts/default/full?max-results=50&amp;oauth_token=ya29.a0ARrdaM_k5AJciZrSxGmBXzI6JdL2pyYVBXJVShfsS6dz1SZepglRdScWFcRbi6l93EP92bQkVu8NWvmF39ztnhM5bqBKYnfrd3KXSIoRclbZWMOJyxojo5PUpLZEMzVCVGx9dZQRf2KCdJp_ruzeeUZ6EBQIgQMpMQ): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 86
+[16-Oct-2021 10:16:25 UTC] PHP Fatal error:  Uncaught Exception: String could not be parsed as XML in /home/reto5v66ax5c/public_html/test/mydemo/result.php:90
+Stack trace:
+#0 /home/reto5v66ax5c/public_html/test/mydemo/result.php(90): SimpleXMLElement->__construct('')
+#1 {main}
+  thrown in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 90
+[16-Oct-2021 10:16:27 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:19:13 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72
+[16-Oct-2021 10:20:51 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 109
+[16-Oct-2021 10:21:29 UTC] PHP Notice:  Undefined property: stdClass::$access_token in /home/reto5v66ax5c/public_html/test/mydemo/result.php on line 72

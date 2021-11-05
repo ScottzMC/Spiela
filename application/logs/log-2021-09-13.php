@@ -1,0 +1,21 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-09-13 03:54:33 --> 404 Page Not Found: 
+ERROR - 2021-09-13 06:21:09 --> 404 Page Not Found: 
+ERROR - 2021-09-13 08:10:13 --> 404 Page Not Found: 
+ERROR - 2021-09-13 08:11:03 --> 404 Page Not Found: 
+ERROR - 2021-09-13 12:55:49 --> 404 Page Not Found: 
+ERROR - 2021-09-13 15:24:29 --> 404 Page Not Found: 
+ERROR - 2021-09-13 15:24:29 --> 404 Page Not Found: 
+ERROR - 2021-09-13 17:00:18 --> 404 Page Not Found: 
+ERROR - 2021-09-13 17:02:53 --> 404 Page Not Found: 
+ERROR - 2021-09-13 17:09:39 --> 404 Page Not Found: 
+ERROR - 2021-09-13 17:13:59 --> 404 Page Not Found: 
+ERROR - 2021-09-13 17:59:03 --> 404 Page Not Found: 
+ERROR - 2021-09-13 17:59:04 --> 404 Page Not Found: 
+ERROR - 2021-09-13 19:36:14 --> 404 Page Not Found: 
+ERROR - 2021-09-13 19:36:14 --> 404 Page Not Found: 
+ERROR - 2021-09-13 19:40:34 --> 404 Page Not Found: 
+ERROR - 2021-09-13 19:40:34 --> 404 Page Not Found: 
+ERROR - 2021-09-13 20:27:54 --> 404 Page Not Found: 
+ERROR - 2021-09-13 20:27:54 --> 404 Page Not Found: 

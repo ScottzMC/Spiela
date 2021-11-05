@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-10-24 01:39:33 --> 404 Page Not Found: 
+ERROR - 2021-10-24 01:43:35 --> 404 Page Not Found: 
+ERROR - 2021-10-24 04:51:04 --> 404 Page Not Found: 
+ERROR - 2021-10-24 10:48:52 --> 404 Page Not Found: 
+ERROR - 2021-10-24 10:48:52 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:23:55 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:23:55 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:46:39 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:46:39 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:47:23 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:47:23 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:51:17 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:51:17 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:58:56 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:58:56 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:59:06 --> 404 Page Not Found: 
+ERROR - 2021-10-24 12:59:06 --> 404 Page Not Found: 
+ERROR - 2021-10-24 19:58:36 --> 404 Page Not Found: 
+ERROR - 2021-10-24 19:58:36 --> 404 Page Not Found: 
+ERROR - 2021-10-24 20:12:47 --> Severity: error --> Exception: Too few arguments to function Community::detail(), 0 passed in /home/reto5v66ax5c/public_html/system/core/CodeIgniter.php on line 532 and exactly 1 expected /home/reto5v66ax5c/public_html/application/controllers/Community.php 164
+ERROR - 2021-10-24 21:31:23 --> 404 Page Not Found: 
+ERROR - 2021-10-24 21:31:23 --> 404 Page Not Found: 
+ERROR - 2021-10-24 21:33:24 --> 404 Page Not Found: 
+ERROR - 2021-10-24 21:33:24 --> 404 Page Not Found: 
+ERROR - 2021-10-24 21:34:11 --> 404 Page Not Found: 
+ERROR - 2021-10-24 21:34:11 --> 404 Page Not Found: 
+ERROR - 2021-10-24 22:48:07 --> 404 Page Not Found: 
+ERROR - 2021-10-24 22:48:07 --> 404 Page Not Found: 

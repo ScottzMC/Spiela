@@ -41,5 +41,5 @@
 .mentiony-item .title, .mentiony-item .help-block{ margin:0;}
 .mentiony-item .title{}
 .mentiony-item .help-block{}
-.mention-area .highlight a.mentiony-link{color:white; background:#009688; padding: 1px 4px; border-radius: 3px;}
+.mention-area .highlight a.mentiony-link{color:black; background:#009688; padding: 1px 4px; border-radius: 3px;}
 

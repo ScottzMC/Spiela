@@ -1,0 +1,127 @@
+.spiela-container {
+    margin:  2rem auto;
+}
+
+.login-wrap {
+    border: 2px solid #ccc;
+    background-color: white;
+    padding: 40px;
+    height: auto;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.login-snippet-wrap {
+    height: 83%;
+}
+
+.form-input-span {
+    min-height: 80px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+}
+
+.final-form {
+    height: 33rem;
+}
+
+.interest-wrap {
+    border: 2px solid #2B584F;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    color: #2B584F;
+}
+
+.interest-wrap-selected {
+    min-height: 10px;
+    border: 2px solid #2B584F;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    background-color: #2B584F;
+}
+
+.interest-wrap:hover, .interest-wrap-selected:hover {
+    cursor: pointer;
+}
+
+.next-button {
+    border-radius: 0 !important;
+}
+
+.post-post-button {
+
+    border-radius: 6px 6px 6px 6px;
+
+    height: 2.5rem;
+
+    width: 8.3rem;
+
+    background-color: #366E63;
+
+    border: none;
+
+    color: white;
+
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+
+    .spiela-container {
+        width: 85%;
+    }
+
+    .login-wrap {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .spiela-container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .login-wrap {
+        width: 67%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .login-wrap {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .spiela-container {
+        width: 85%;
+    }
+
+    .login-wrap {
+        min-width: 37%;
+
+    }
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .spiela-container {
+        width: 75%;
+    }
+}

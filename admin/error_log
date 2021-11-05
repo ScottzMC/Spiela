@@ -1,0 +1,2 @@
+[27-Feb-2021 23:35:15 UTC] PHP Fatal error:  Cannot redeclare Community::edit() in /home/reto5v66ax5c/public_html/admin/application/controllers/Community.php on line 177
+[01-Mar-2021 18:46:05 UTC] PHP Fatal error:  Cannot redeclare Community::add() in /home/reto5v66ax5c/public_html/admin/application/controllers/Community.php on line 231

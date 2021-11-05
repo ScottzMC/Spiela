@@ -1,0 +1,40 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-07-24 00:11:31 --> 404 Page Not Found: 
+ERROR - 2021-07-24 00:37:08 --> 404 Page Not Found: 
+ERROR - 2021-07-24 01:05:12 --> 404 Page Not Found: 
+ERROR - 2021-07-24 03:35:49 --> 404 Page Not Found: 
+ERROR - 2021-07-24 04:52:30 --> 404 Page Not Found: 
+ERROR - 2021-07-24 05:11:07 --> 404 Page Not Found: 
+ERROR - 2021-07-24 05:11:07 --> 404 Page Not Found: 
+ERROR - 2021-07-24 06:21:52 --> 404 Page Not Found: 
+ERROR - 2021-07-24 07:43:48 --> 404 Page Not Found: 
+ERROR - 2021-07-24 08:35:32 --> 404 Page Not Found: 
+ERROR - 2021-07-24 08:35:32 --> 404 Page Not Found: 
+ERROR - 2021-07-24 09:38:48 --> Severity: error --> Exception: Too few arguments to function Community::detail(), 0 passed in /home/reto5v66ax5c/public_html/system/core/CodeIgniter.php on line 532 and exactly 1 expected /home/reto5v66ax5c/public_html/application/controllers/Community.php 164
+ERROR - 2021-07-24 10:29:55 --> 404 Page Not Found: 
+ERROR - 2021-07-24 10:51:09 --> Severity: error --> Exception: Too few arguments to function Community::category(), 0 passed in /home/reto5v66ax5c/public_html/system/core/CodeIgniter.php on line 532 and exactly 1 expected /home/reto5v66ax5c/public_html/application/controllers/Community.php 111
+ERROR - 2021-07-24 10:54:28 --> 404 Page Not Found: 
+ERROR - 2021-07-24 10:54:28 --> 404 Page Not Found: 
+ERROR - 2021-07-24 12:26:03 --> 404 Page Not Found: 
+ERROR - 2021-07-24 13:21:31 --> 404 Page Not Found: 
+ERROR - 2021-07-24 13:54:21 --> 404 Page Not Found: 
+ERROR - 2021-07-24 13:54:21 --> 404 Page Not Found: 
+ERROR - 2021-07-24 14:25:19 --> 404 Page Not Found: 
+ERROR - 2021-07-24 14:25:19 --> 404 Page Not Found: 
+ERROR - 2021-07-24 16:41:55 --> 404 Page Not Found: 
+ERROR - 2021-07-24 16:41:55 --> 404 Page Not Found: 
+ERROR - 2021-07-24 17:24:29 --> 404 Page Not Found: 
+ERROR - 2021-07-24 17:31:28 --> 404 Page Not Found: 
+ERROR - 2021-07-24 18:04:20 --> 404 Page Not Found: 
+ERROR - 2021-07-24 18:46:16 --> 404 Page Not Found: 
+ERROR - 2021-07-24 19:58:33 --> 404 Page Not Found: 
+ERROR - 2021-07-24 19:58:33 --> 404 Page Not Found: 
+ERROR - 2021-07-24 20:00:43 --> 404 Page Not Found: 
+ERROR - 2021-07-24 20:00:45 --> 404 Page Not Found: 
+ERROR - 2021-07-24 20:56:40 --> 404 Page Not Found: 
+ERROR - 2021-07-24 21:15:22 --> 404 Page Not Found: 
+ERROR - 2021-07-24 21:15:22 --> 404 Page Not Found: 
+ERROR - 2021-07-24 21:15:41 --> 404 Page Not Found: 
+ERROR - 2021-07-24 21:15:41 --> 404 Page Not Found: 
+ERROR - 2021-07-24 21:36:45 --> 404 Page Not Found: 

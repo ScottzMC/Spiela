@@ -1,0 +1,39 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-08-24 02:01:58 --> 404 Page Not Found: 
+ERROR - 2021-08-24 02:01:58 --> 404 Page Not Found: 
+ERROR - 2021-08-24 05:31:49 --> 404 Page Not Found: 
+ERROR - 2021-08-24 09:42:35 --> 404 Page Not Found: 
+ERROR - 2021-08-24 09:42:35 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:27:06 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:27:06 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:39:50 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:39:50 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:40:17 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:40:18 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:40:27 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:40:28 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:40:42 --> 404 Page Not Found: 
+ERROR - 2021-08-24 12:40:42 --> 404 Page Not Found: 
+ERROR - 2021-08-24 14:52:42 --> 404 Page Not Found: 
+ERROR - 2021-08-24 14:52:42 --> 404 Page Not Found: 
+ERROR - 2021-08-24 14:54:57 --> 404 Page Not Found: 
+ERROR - 2021-08-24 14:54:57 --> 404 Page Not Found: 
+ERROR - 2021-08-24 15:34:37 --> 404 Page Not Found: 
+ERROR - 2021-08-24 15:34:37 --> 404 Page Not Found: 
+ERROR - 2021-08-24 15:42:07 --> 404 Page Not Found: 
+ERROR - 2021-08-24 15:42:07 --> 404 Page Not Found: 
+ERROR - 2021-08-24 15:43:51 --> 404 Page Not Found: 
+ERROR - 2021-08-24 15:43:51 --> 404 Page Not Found: 
+ERROR - 2021-08-24 15:58:18 --> 404 Page Not Found: 
+ERROR - 2021-08-24 15:58:18 --> 404 Page Not Found: 
+ERROR - 2021-08-24 16:01:38 --> 404 Page Not Found: 
+ERROR - 2021-08-24 16:01:38 --> 404 Page Not Found: 
+ERROR - 2021-08-24 16:08:09 --> Severity: error --> Exception: Too few arguments to function Community::category(), 0 passed in /home/reto5v66ax5c/public_html/system/core/CodeIgniter.php on line 532 and exactly 1 expected /home/reto5v66ax5c/public_html/application/controllers/Community.php 64
+ERROR - 2021-08-24 16:39:01 --> 404 Page Not Found: 
+ERROR - 2021-08-24 16:39:04 --> 404 Page Not Found: 
+ERROR - 2021-08-24 19:24:14 --> 404 Page Not Found: 
+ERROR - 2021-08-24 19:24:14 --> 404 Page Not Found: 
+ERROR - 2021-08-24 21:47:13 --> 404 Page Not Found: 
+ERROR - 2021-08-24 21:47:13 --> 404 Page Not Found: 
+ERROR - 2021-08-24 21:59:54 --> Severity: error --> Exception: Too few arguments to function Community::category(), 0 passed in /home/reto5v66ax5c/public_html/system/core/CodeIgniter.php on line 532 and exactly 1 expected /home/reto5v66ax5c/public_html/application/controllers/Community.php 64
