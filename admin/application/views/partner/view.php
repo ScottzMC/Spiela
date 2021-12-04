@@ -83,6 +83,7 @@ foreach($user_details as $usrd){}
                                     <tr>
                                         <th>ID</th>
                                         <th>Image</th>
+                                        <th>Slug</th>
                                         <th>Full Name</th>
                                         <th>URL</th>
                                         <th>Action</th>
@@ -94,9 +95,10 @@ foreach($user_details as $usrd){}
                                     <tr>
                                         <td><?php echo $part->id; ?></td>
                                         <td class="w60">
-                                            <img class="avatar" src="https://spiela.co.uk/uploads/partners/<?php echo $part->image; ?>" alt="">
+                                            <img class="avatar" src="https://spiela.co.uk/uploads/profile/<?php echo $part->profile_image; ?>" alt="">
                                         </td>
-                                        <td><span class="font-16"><?php echo str_replace('-', ' ', $part->fullname); ?></span></td>
+                                        <td><span class="font-16"><?php echo $part->slug; ?></span></td>
+                                        <td><span class="font-16"><?php echo str_replace('-', ' ', $part->firstname); ?> <?php echo str_replace('-', ' ', $part->lastname); ?></span></td>
                                         <?php if(!empty($part->url)){ ?>
                                         <td><a href="<?php echo $part->url; ?>" target="_blank">Click</a></td>
                                         <?php }else{ ?>
@@ -121,8 +123,18 @@ foreach($user_details as $usrd){}
                                     <div class="row">
                                         <div class="col-md-4 col-sm-12">
                                             <div class="form-group">
-                                                <label>Full Name <span class="text-danger">*</span></label>
-                                                <input type="text" name="fullname" class="form-control" value="">
+                                                <label>Slug <span class="text-danger">*</span></label>
+                                                <input type="text" name="slug" class="form-control" value="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                            <div class="form-group">
+                                                <label>First Name <span class="text-danger">*</span></label>
+                                                <input type="text" name="firstname" class="form-control" value="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Last Name <span class="text-danger">*</span></label>
+                                                <input type="text" name="lastname" class="form-control" value="">
                                             </div>
                                             <div class="form-group">
                                                 <label>Bio <span class="text-danger">*</span></label>
@@ -144,26 +156,6 @@ foreach($user_details as $usrd){}
                                         </div>
                                     </div>
                                     
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-12">
-                                            <div class="form-group">
-                                                <label>Social Media <span class="text-danger">*</span></label>
-                                                <select name="social">
-                                                    <option>Select</option>
-                                                    <option value="Facebook">Facebook</option>
-                                                    <option value="Instagram">Instagram</option>
-                                                    <option value="Twitter">Twitter</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12">
-                                            <div class="form-group">
-                                                <label>Social URL</label>
-                                                <input type="text" name="social_url" class="form-control" value="">
-                                            </div>
-                                        </div>
-                                    </div>
-
                                     <div class="row">
                                         <div class="col-sm-12 text-right m-t-20">
                                             <button type="submit" name="submit_add" class="btn btn-primary">SAVE</button>

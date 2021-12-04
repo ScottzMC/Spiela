@@ -178,11 +178,11 @@ foreach($user_details as $usrd){}
                                               <select name="posted_by" class="form-control">
                                                <option>-- Select --</option>
                                                <?php 
-                                               $query = $this->db->query("SELECT slug, fullname FROM partners")->result();
+                                               $query = $this->db->query("SELECT slug, firstname, lastname FROM users WHERE role = 'partner' ORDER BY firstname ASC ")->result();
                                                foreach($query as $qry){}
                                                
                                                if(!empty($query)){ foreach($query as $qry){ ?>
-                                   			   <option value="<?php echo $qry->slug; ?>"><?php echo $qry->fullname; ?></option>
+                                   			   <option value="<?php echo $qry->slug; ?>"><?php echo $qry->firstname; ?> <?php echo $qry->lastname; ?></option>
                                    			   <?php } } ?>
                                               </select>
                                           </div>

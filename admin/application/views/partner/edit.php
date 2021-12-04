@@ -67,8 +67,18 @@ foreach($partner as $part){}
                                     <div class="row">
                                         <div class="col-md-4 col-sm-12">
                                             <div class="form-group">
+                                                <label>Slug <span class="text-danger">*</span></label>
+                                                <input type="text" name="slug" class="form-control" value="<?php echo $part->slug; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                            <div class="form-group">
                                                 <label>Full Name <span class="text-danger">*</span></label>
-                                                <input type="text" name="fullname" class="form-control" value="<?php echo $part->fullname; ?>">
+                                                <input type="text" name="firstname" class="form-control" value="<?php echo $part->firstname; ?>">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Last Name <span class="text-danger">*</span></label>
+                                                <input type="text" name="lastname" class="form-control" value="<?php echo $part->lastname; ?>">
                                             </div>
                                         </div>
                                         <div class="col-sm-12">
@@ -81,7 +91,7 @@ foreach($partner as $part){}
                                         <div class="col-sm-12">
                                             <div class="form-group">
                                                 <label>URL</label>
-                                                <input type="text" name="url" class="form-control" value="<?php echo $part->url; ?>">
+                                                <input type="text" name="url" class="form-control" value="<?php echo $part->work_url; ?>">
                                             </div>
                                         </div>
                                     </div>

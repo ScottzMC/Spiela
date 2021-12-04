@@ -9,6 +9,7 @@
         $escape_password = $this->db->escape_str($password);
 
 	  	$this->db->where('email', $escape_email);
+        $this->db->where('oauth_provider', '');
     	$query = $this->db->get('users');
 
     	if($query->num_rows() > 0){
@@ -471,15 +472,16 @@
     // Partners
 
     public function record_partner_count(){
-      $this->db->from('partners');
+      $this->db->from('users');
       $query = $this->db->count_all_results();
       return $query;
     }
 
     public function fetch_partner_data($limit, $start){
      $this->db->limit($limit, $start);
-     $this->db->order_by('fullname', 'ASC');
-     $query = $this->db->get("partners");
+     $this->db->where('role', 'partner');
+     $this->db->order_by('firstname', 'ASC');
+     $query = $this->db->get("users");
 
      if ($query->num_rows() > 0) {
          foreach ($query->result() as $row) {
@@ -491,19 +493,19 @@
    }
 
      public function record_search_partner_count() {
-       $query = $this->db->count_all("partners");
+       $query = $this->db->count_all("users");
        return $query;
      }
 
     public function fetch_search_partner_data($limit, $start, $fullname){
       $this->db->limit($limit, $start);
-      $query = $this->db->query("SELECT * FROM partners WHERE fullname LIKE '%$fullname%' ORDER BY fullname ASC ")->result();
+      $query = $this->db->query("SELECT * FROM users WHERE firstname LIKE '%$fullname%' AND WHERE role = 'partner' ORDER BY fullname ASC ")->result();
       return $query;
     }
 
     public function display_partner_by_id($id){
       $this->db->where('id', $id);
-      $query = $this->db->get('partners')->result();
+      $query = $this->db->get('users')->result();
       return $query;
     }
 

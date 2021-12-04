@@ -154,19 +154,21 @@
     // Partner 
     
     public function display_partner(){
-      $query = $this->db->get("partners")->result();
+      $this->db->order_by('created_date', 'DESC');
+      $this->db->where('role', 'partner');
+      $query = $this->db->get("users")->result();
       return $query;
     }
 
     public function display_partner_by_id($id){
       $this->db->where('id', $id);
-      $query = $this->db->get("partners")->result();
+      $query = $this->db->get("users")->result();
       return $query;
     }
     
     public function add_partner($data){
       $escape_data = $this->db->escape_str($data);
-      $query = $this->db->insert('partners', $escape_data);
+      $query = $this->db->insert('users', $escape_data);
       return $query;
     }
     
@@ -178,18 +180,18 @@
     
     public function update_partner($id, $data){
         $this->db->where('id', $id);
-        $query = $this->db->update('partners', $data);
+        $query = $this->db->update('users', $data);
         return $query;
     }
     
     public function update_partner_image($id, $data){
         $this->db->where('id', $id);
-        $query = $this->db->update('partners', $data);
+        $query = $this->db->update('users', $data);
         return $query;
     }
 
     public function delete_partner($id){
-      $query = $this->db->query("DELETE FROM partners WHERE id = '$id' ");
+      $query = $this->db->query("DELETE FROM users WHERE id = '$id' ");
       return $query;
     }
     

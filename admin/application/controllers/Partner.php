@@ -22,9 +22,9 @@
           $submit_btn = $this->input->post('submit_add');
     
           if(isset($submit_btn)){
-            $fullname = $this->input->post('fullname');
-            $shuffle = rand(000, 999);
-            $slug = strtolower("partner").'-'.$shuffle;
+            $firstname = $this->input->post('firstname');
+            $lastname = $this->input->post('lastname');
+            $slug = $this->input->post('slug');
             
             $social = $this->input->post('social');
             $social_url = $this->input->post('social_url');
@@ -48,7 +48,7 @@
                 $newName = time()."Image".".".pathinfo($path, PATHINFO_EXTENSION);
     
                 $config1 = array(
-                    'upload_path'   => "./uploads/../../uploads/partners/",
+                    'upload_path'   => "./uploads/../../uploads/profile/",
                     'allowed_types' => "gif|jpg|png|jpeg",
                     'overwrite'     => TRUE,
                     'file_name'     => $newName,
@@ -67,31 +67,26 @@
               }
     
               $add_array = array(
-                'fullname' => $fullname,
+                'firstname' => $firstname,
+                'lastname' => $lastname,
                 'slug' => $slug,
                 'bio' => $bio,
-                'image' => $newName,
-                'url' => $url,
+                'role' => "partner",
+                'profile_image' => $newName,
+                'work_url' => $url,
                 'created_date' => $date
-              );
-              
-              $add_social_array = array(
-                'social' => $social,
-                'slug' => $slug,
-                'url' => $social_url
               );
     
             $add_partners = $this->Admin_model->add_partner($add_array);
-            $add_partner_social = $this->Admin_model->add_partner_social($add_social_array);
-    
-            if($add_partners && $add_partner_social){ ?>
+
+            if($add_partners){ ?>
                 <script>
                    alert('Partner created successfully');
                    window.location.href="<?php echo site_url('partner/view'); ?>";
                 </script>
          <?php }else{ ?>
                 <script>
-                   alert('Registration Failed');
+                   alert('Failed');
                    window.location.href="<?php echo site_url('partner/view'); ?>";
                 </script>
       <?php }
@@ -142,16 +137,20 @@
             $this->load->view('partner/edit', $data);
     
             if(isset($submit)){
-              $fullname = $this->input->post('fullname');
+              $firstname = $this->input->post('firstname');
+              $lastname = $this->input->post('lastname');
+              $slug = $this->input->post('slug');
               $bio = $this->input->post('bio');
               $url = $this->input->post('url');
 
               $date = date('Y-m-d H:i:s');
               
               $edit_array = array(
-               'fullname' => $fullname,
+               'firstname' => $firstname,
+               'lastname' => $lastname,
+               'slug' => $slug,
                'bio' => $bio,
-               'url' => $url
+               'work_url' => $url
              );
              
                $edit_post = $this->Admin_model->update_partner($id, $edit_array);
@@ -206,7 +205,7 @@
                 $newName = time()."Image".".".pathinfo($path, PATHINFO_EXTENSION);
     
                 $config1 = array(
-                    'upload_path'   => "./uploads/../../uploads/partners/",
+                    'upload_path'   => "./uploads/../../uploads/profile/",
                     'allowed_types' => "gif|jpg|png|jpeg",
                     'overwrite'     => TRUE,
                     'file_name'     => $newName,
@@ -225,7 +224,7 @@
               }
               
               $edit_array = array(
-               'image' => $newName,
+               'profile_image' => $newName,
              );
              
                $edit_post = $this->Admin_model->update_partner_image($id, $edit_array);

@@ -103,6 +103,7 @@ a{
 												    </a>
 												</h5>
 												<p><?php echo $adv->body; ?></p>
+												<a href="<?php echo site_url('community/detail/'.$adv->id); ?>">View</a>
 												<?php } }else{ echo ''; }  ?>
 											</div>
 											<div class="tab-content clearfix" id="tabs-12">
